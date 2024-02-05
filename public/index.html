@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Catstagram</title>
+    <div id="footer" class="footer">
+      <button id="new-cat" class="new-cat">New Cat</button>
+      <span id="popularity">Popularity: </span>
+      <div class="votes">
+        <button id="updoot" class="updoot">Updoot</button>
+        <button id="downdoot" class="downdoot">Downdoot</button>
+      </div>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Catstagram</title>
-</head>
+      <div class="comment">
+        <span>Comment</span>
+        <input type="text" placeholder="Tell kitty hes cute" id="input" />
+        <button id="comment-button">Comment</button>
+      </div>
+      <span>Comments:</span>
+      <ul class="comments" id="comments"></ul>
+    </div>
+  </head>
 
-<body>
-</body>
-
+  <body>
+    <script src="index.js"></script>
+  </body>
 </html>
